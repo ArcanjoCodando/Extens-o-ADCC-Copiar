@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Copiar Nome do Atleta",
-    "version": "1.5",
+    "version": "1.6",
     "author": "Gabriel Arcanjo",
     "description": "Extensão para copiar rapidamente o nome do atleta.",
     "permissions": ["clipboardWrite", "activeTab", "scripting"],

@@ -4,17 +4,14 @@ function addCopyButtons() {
       
       const button = document.createElement("button");
       button.innerText = "📋 Copiar";
-      button.style.position = "absolute";
-      button.style.transform = "translateY(-50%)";
       button.style.cursor = "pointer";
       button.style.padding = "4px 8px";
-      button.style.fontSize = "12px";
+      button.style.fontSize = "14px";
       button.style.border = "none";
+      button.style.margin = "1px 10px 5px 1px";
       button.style.backgroundColor = "#fe8a34";
       button.style.color = "white";
       button.style.borderRadius = "4px";
-      button.style.marginRight = "8px";
-      button.style.zIndex = "1000";
       
       button.addEventListener("click", () => {
         let name = span.cloneNode(true);
