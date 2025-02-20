@@ -20,7 +20,9 @@ function addCopyButtons() {
         
         navigator.clipboard.writeText(textToCopy).then(() => {
           button.innerText = "✅ Copiado!";
+          button.style.backgroundColor = "#00ff00";
           setTimeout(() => button.innerText = "📋 Copiar", 2000);
+          setTimeout(() => button.style.backgroundColor = "#fe8a34", 2000);
         });
       });
       
